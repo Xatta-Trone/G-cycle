@@ -1,4 +1,9 @@
 gery #F2F2F2
 green #2ecc71
-mat black #2D3E50
+mat black #202226
 white #FFFFFF
+secondary color #7f8c8d
+
+zerowaste.co.in
+http://www.atterobay.com/
+https://www.cashify.in/

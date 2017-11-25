@@ -4,10 +4,10 @@ html,body{
 	width: 100%;
 }
 body{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Nunito', sans-serif; */
-    color: #fff;
+    color: #202226;
 }
 /* temp setting */
 .fixed-top{position:none;}
@@ -29,7 +29,10 @@ a:hover { text-decoration: none }
 /* Global setting end */
 
 .hero-bg{background-image: url(../img/bg-1.jpg);}
-/* Nav area */
+
+/*=======================
+ Nav area
+ ================ */
 
 
 .xt-nav-brand {
@@ -68,9 +71,14 @@ a:hover { text-decoration: none }
 #navbarResponsive a.active, .xt-nav-bg li:hover a{
     border-bottom: 3px solid #2ecc71;
 }
+/*=======================
+ Nav area end
+ ================ */
 
 
-/* Home page hero area */
+/*==================
+Home page hero area 
+======================*/
 .home-page-hero-area{
     height: 100%;
     width: 100%;
@@ -132,3 +140,59 @@ a:hover { text-decoration: none }
 .sell-btn:hover i.fa {
     padding-left: 8px;
 }
+/*==================
+Home page hero area end
+======================*/
+
+/* ===========
+Process area start
+================ */
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.process-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 13px;
+}
+
+.process-header h2:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    content: '';
+    background: #2ecc71;
+    margin-left: -50px;
+}
+
+.single-process-item i.fa {
+    font-size: 60px;
+    /* text-align: center; */
+    color: #2ecc71;
+    margin-bottom: 20px;
+}
+
+.single-process-item h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.single-process-item p {
+    color: #7f8c8d;
+}
+
+.single-process-item {
+    padding: 25px;
+}
+
+
+/* ===========
+Process area end
+================ */
