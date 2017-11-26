@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//scroll to top
-	 /*$(window).scroll(function() {
+	 $(window).scroll(function() {
 	    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
 	        $('#return-to-top').fadeIn(200);   // Fade in the arrow
 	        $("#sticker").addClass("lightheader");
@@ -13,17 +13,27 @@ $(document).ready(function(){
 	    $('body,html').animate({
 	        scrollTop : 0                       // Scroll to top of body
 	    }, 500);
-	});*/
+	});
 
-	/*$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
+	
+	// owl carousel
 
-     //>=, not <=
-    if (scroll >= 50) {
-        //clearHeader, not clearheader - caps H
-        $("#sticker").addClass("lightheader");
-    }
-	}); */
+	$(".testimonial-slides").owlCarousel({
+		items: 1,
+		margin:30,
+		autoplay:false,
+        loop:true,
+        nav: true,
+        dots: false,
+        navText: ["<i class='fa fa-chevron-left' aria-hidden='true'></i>","<i class='fa fa-chevron-right' aria-hidden='true'></i>"]
+	});
+
+	//counter 
+
+	$('.counter').counterUp({
+                delay: 10,
+                time: 1500
+            });
 
 
 
