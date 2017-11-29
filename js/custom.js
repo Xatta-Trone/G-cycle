@@ -21,7 +21,8 @@ $(document).ready(function(){
 	$(".testimonial-slides").owlCarousel({
 		items: 1,
 		margin:30,
-		autoplay:false,
+		autoplay:true,
+		autoplayTimeout:2500,
         loop:true,
         nav: true,
         dots: false,
@@ -33,7 +34,9 @@ $(document).ready(function(){
 	$('.counter').counterUp({
                 delay: 10,
                 time: 1500
-            });
+    });
+
+
 
 
 

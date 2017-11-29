@@ -1,0 +1,63 @@
+ Does your device switch On? 
+y/n
+
+
+ Display & Touch Screen 
+Flawless	
+2 -3 Minor Scratches
+Heavily Scratched	
+Broken Dead Pixel Liquid Mark or Does not work proper
+
+ Select the available accessories 
+
+Earphone
+Box
+Original Charger
+
+ Select the functional issues of your device 
+Front Or Back Camera - Not working or faulty
+Volume Button not working
+Power/Home Button Faulty; Hard or Not Working
+Wifi Or Bluetooth Or GPS Not Working
+Charging Defect; unable to charge the phone
+Battery Faulty or Very Low Battery Back up
+Speakers not working; faulty Or cracked sound
+Microphone Not Working
+GSM (Call Function) is not-working normally
+Earphone Jack is damaged or not-working
+Fingrprint Sensor Not-working
+
+
+ Select if applicable 
+Device has undergone repairs
+
+ How old is your device? 
+see frm site
+
+ Device Body (Back Panel / Cover) 
+Flawless
+Scratched
+Cracked
+Broken
+
+ Hardware Buttons or Keys 
+Okay
+Loose
+Missing
+Broken
+
+ Silver Frame / Bezel (around screen) 
+Okay
+Discolored
+Dented
+Broken
+
+ Main Camera (Camera Glass) 
+
+Flawless
+Scratched
+Blur
+Cracked
+Broken
+
+
