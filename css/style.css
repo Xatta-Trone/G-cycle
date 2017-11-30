@@ -2,6 +2,7 @@ html,body{
 	height: 100%;
 	position: relative;
 	width: 100%;
+    
 }
 body{
     font-size: 16px;
@@ -9,11 +10,13 @@ body{
     /* font-family: 'Nunito', sans-serif; */
     color: #202226;
     overflow-x: hidden;
+    
 }
 /* temp setting */
 .fixed-top{position:none;}
 /* Gloabal setting */
-a:hover { text-decoration: none }
+a:hover { text-decoration: none; color:#202226; }
+a{color: #2ecc71;}
 
 .xt-table{
     height: 100%;
@@ -454,9 +457,11 @@ mini footer area
     color: #7f8c8d;
 }
 
-.mini-footer a {
+/* .mini-footer a {
     color: #2ecc71;
-}
+} */
+
+
 /* =============
 mini footer area end
 ========== */
@@ -513,6 +518,16 @@ Return to top end
 ========== */
 
 
+/* ===============
+    specification area
+=================== */
+.custom-control-input:checked~.custom-control-indicator {
+    background-color: #2ecc71;
+}
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2ecc71;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2ecc71;
+}
 
 .specification-area {
     margin-bottom: 10px;
@@ -545,20 +560,21 @@ Return to top end
     font-weight: 500;
 }
 
-.specification-form input[type='submit'], button[type='submit'], .chkout-btn {
+.specification-form input[type='submit'], button[type='submit'], .chkout-btn, .go-back, .checkout-form input[type='submit'] {
     background: #2ecc71;
     border: none;
     color: #fff;
     padding: 10px 25px;
     font-size: 20px;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 10px 10px 10px 0;
     display: inline-block;
     transition: 0.3s;
 }
 
 .phone-value-details {
     margin: 10px 0 20px;
+    display: none;
 }
 
 .phone-value-details span {
@@ -574,8 +590,105 @@ Return to top end
     margin: 2px 0;
     color: #7f8c8d;
 }
+.chkout-btn{
+    margin-right: 0;
+}
 
 .chkout-btn:hover, button[type='submit']:hover {
     background: #202226;
     color: #fff;
+}
+
+/* ===============
+    specification area end
+=================== */
+
+.checkout-form {
+   
+}
+
+.checkout-form p {
+    font-size: 90%;
+    color: #7f8c8d;
+}
+
+.checkout-form input[type=text],.checkout-form input[type=password],.checkout-form textarea {
+    width: 100%;
+    border: none;
+    background: #F2F2F2;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    color: #333;
+}
+.checkout-form input:focus,.checkout-form textarea;focus{
+    outline:none;
+}
+
+.checkout-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.checkout-form input[type='submit'] {
+    border: none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+.checkout-area-header {
+    background: #2ecc71;
+    padding: 60px 40px;
+    height: 100%;
+    color: #fff;
+}
+
+.checkout-area-header
+ h4 {
+    font-size: 28px;
+}
+
+.checkout-area-header
+ h4 span {
+    font-weight: 900;
+}
+
+.checkout-area-header p {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.checkout-area-header p span {
+    font-weight: 700;
+}
+
+.checkout-area {
+    margin: 60px auto;
+}
+
+.checkout-form {
+    box-shadow: 0 0 10px #ddd;
+    padding: 40px 30px;
+}
+
+.checkout-area-header a {
+    color: #202226;
+    font-size: 80%;
+    display: block;
+    font-weight: 500;
 }

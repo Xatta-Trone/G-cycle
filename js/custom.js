@@ -36,6 +36,14 @@ $(document).ready(function(){
                 time: 1500
     });
 
+	// value area show
+    $(".getPrice").on('click', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+		$(".phone-value-details").slideDown(700);
+		return false;
+	});
+
 
 
 
