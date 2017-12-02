@@ -44,6 +44,13 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$("#editprofile").on('click', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+		$(".profile-edit-area").slideDown(700);
+		return false;
+	});
+
 
 
 

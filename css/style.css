@@ -602,6 +602,9 @@ Return to top end
 /* ===============
     specification area end
 =================== */
+/* ===================
+    chkout area
+======================== */
 
 .checkout-form {
    
@@ -692,3 +695,119 @@ label:focus,
     display: block;
     font-weight: 500;
 }
+/* ===================
+    chkout area
+======================== */
+/* ===================
+    contact area
+======================== */
+
+.contact-area-header {
+    background: #2ECC71;
+    padding: 30px;
+    height: 100%;
+    color: #fff;
+}
+
+.contact-area-header a {
+    color: #fff;
+}
+
+.contact-area-header p {
+    position: relative;
+    padding-left: 36px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.contact-area-header p i.fa {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 25px;
+    transform: translateY(-50%);
+}
+
+.social-icons i.fa {
+    font-size: 30px;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+
+.contact-area-header h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+/* ===================
+    contact area
+======================== */
+/* ===================
+    prifile area
+======================== */
+
+.recent-history {
+    padding: 30px 10px;
+}
+
+.recent-history ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.recent-history p {
+    margin: 0;
+    padding: 5px 5px;
+}
+
+
+.user-profile .nav-link.active {
+    background: #2ecc71;
+    color: #fff;
+}
+
+
+.user-profile {
+    padding: 30px 20px;
+}
+
+.user-profile p {
+    margin: 0;
+    border: 1px dotted #2ecc71;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.user-profile p span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.profile-edit-area{
+    display: none;
+}
+.profile-edit-area input {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.profile-edit-area form {
+    box-shadow: 0 0 6px #bbb;
+    display: inline-block;
+    padding: 35px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* ===================
+    prifile area
+======================== */
