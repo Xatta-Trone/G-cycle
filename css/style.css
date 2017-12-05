@@ -2,8 +2,6 @@ html,body{
 	height: 100%;
 	position: relative;
 	width: 100%;
-    width: auto !important;
-    overflow-x: hidden !important;
     
 }
 body{
@@ -11,7 +9,8 @@ body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Nunito', sans-serif; */
     color: #202226;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: auto !important;
     
 }
 /* temp setting */
