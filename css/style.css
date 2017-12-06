@@ -3,6 +3,7 @@ html,body{
 	position: relative;
 	width: 100%;
     width: auto !important;
+    overflow-x: hidden;
     
 }
 body{
