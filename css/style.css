@@ -532,6 +532,7 @@ Return to top end
 
 .specification-area {
     margin-bottom: 10px;
+    overflow-x: hidden;
 }
 
 .specification-header {
