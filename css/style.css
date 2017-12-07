@@ -1,9 +1,7 @@
 html,body{
 	height: 100%;
 	position: relative;
-	width: 100%;
     width: auto !important;
-    overflow-x: hidden;
     
 }
 body{
@@ -11,12 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Nunito', sans-serif; */
     color: #202226;
-    overflow-x: hidden !important;
-    width: auto !important;
     
-}
-/* temp setting */
-.fixed-top{position:none;}
+}/* 
+temp setting */
+.fixed-top{width: 100vw;}
 /* Gloabal setting */
 a:hover { text-decoration: none; color:#202226; }
 a{color: #2ecc71;}
